@@ -1,0 +1,49 @@
+{
+	"SDKVersion": 2,
+	"Author": "Darius klein",
+	"CodePath": "app.html",
+	"Description": "Personal workflow",
+	"Name": "Darius workflow",
+	"Icon": "assets/placeholder",
+	"URL": "https://www.elgato.com/en/gaming/stream-deck",
+	"Version": "0.1.0",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Workflow",
+	"CategoryIcon": "assets/placeholder",
+	"Actions": [
+		{
+			"Icon": "assets/placeholder",
+			"Name": "Test action",
+			"Controllers": ["Keypad", "Encoder"],
+			"Encoder": {
+				"layout": "$B1",
+				"TriggerDescription": {
+					"Rotate": "Describe the rotation",
+					"Push": "Describe the encoder push",
+					"Touch": "Describe the touch",
+					"LongTouch": "Describe the long touch"
+				}
+			},
+			"States": [
+				{
+					"Image": "assets/placeholder"
+				}
+			],
+			"Tooltip": "Test action",
+			"UUID": "com.darius.workflow.test.action",
+			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
+		}
+	]
+}

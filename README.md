@@ -1,35 +1,29 @@
 
-# Stream Deck Plugin Template
+# Workflow plugin
 
-The `Stream Deck Plugin Template` is a template to let you get started quickly when writing a JavaScript plugin for [Stream Deck](https://developer.elgato.com/documentation/stream-deck/). `Stream Deck Plugin Template` requires Stream Deck 6.0 or later.
+The `Workflow plugin` is een plugin gemaakt voor mijn persoonlijke workflow.
 
 ## Description
 
-`Stream Deck Plugin Template` is a complete plugin that shows you how to
-
-- load and save settings using Stream Deck's persistent store
-- setup and communicate with the Property Inspector
-- pass messages directly from Property Inspector to the plugin (and vice versa)
-- localize your Property Inspector's UI to another language
+`Workflow plugin` is een plugin gemaakt om mijn workflow te verbeteren en mijn taken bij te houden.
 
 ## Features
 
 - code written in Javascript
-- cross-platform (macOS, Windows)
-- localization support
-- styled [Property Inspector](https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/) included
-- Property Inspector contains all required boilerplate code to let you instantly work on your plugin's code.
+- snel notities maken
+- Notities voegen automatiche datetime stamp toe
+- Communiceert informatie met server
 
 ## Quick Start Guide
 
-A short guide to help you get started quickly.
+Tutorial voor het opzetten van de dev environment
 
 ### Clone the repo
 
-```git clone https://github.com/elgatosf/streamdeck-plugin-template```
+```git clone https://github.com/DariusKlein/WorkflowPlugin```
 
-### Replace Name
-
+### Create symlink
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! hier verder gaan
 Rename the folder as well as any references.
 
 `com.elgato.template` with `my.domain.plugin-name`
